@@ -17,9 +17,16 @@
         </style>
     </head>
 <body>
-    <div class="bg-red-500 py-4 text-white">
-        <i class="fa-solid fa-user-astronaut"></i>
-        some text here
+    <div class="h-screen w-full relative flex bg-gray-800 overflow-hidden">
+        <div class="w-[174px]">
+            @include('layout.vertical_nav')
+        </div>
+        <div class="flex-1 pt-4 pr-4">
+            <div class="bg-white h-full" style="border-top-left-radius: 30px; border-top-right-radius: 30px">
+                content
+            </div>
+        </div>
+        
     </div>
 </body>
 </html>
