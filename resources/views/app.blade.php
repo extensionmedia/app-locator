@@ -18,7 +18,7 @@
     </head>
 <body>
     <div class="h-screen w-full relative flex bg-gray-800 overflow-hidden">
-        <div class="w-[174px]">
+        <div class=" w-[50px] lg:w-[174px]">
             @include('layout.vertical_nav')
         </div>
         <div class="flex-1 pt-4 pr-4">
