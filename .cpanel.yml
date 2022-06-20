@@ -2,4 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home2/extensionmedia/locator_public/
- - /bin/cp /public/css/* $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
